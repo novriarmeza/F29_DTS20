@@ -1,0 +1,335 @@
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Cambria";
+    margin: 0;
+    padding: 0;
+    
+}
+.btn{
+    background-color: darkblue;
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 15px 20px;
+    color: white;;
+}
+.btn2{
+    background-color: darkblue;
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 15px 20px;
+    color: white;;
+    margin-left: 700px;
+}
+.col{
+    color: white;
+    float: left;
+    width: 33%;
+}
+.col-icon{
+    padding-top: 40px;
+    position: relative;
+    display: inline-block;
+}
+.col-icon img{
+    width: 90px;
+}
+.contact{
+    padding: 20px 100px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: darkblue;
+}
+.contact p{
+    padding: 10px
+}
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.content-bottom{
+
+    width: 100%;
+    background-color:rgb(128, 128, 128, 0.05);
+    color: darkblue;
+}
+.content-bottom h1{
+    padding-top: 20px;
+    text-align: center;
+}
+.content-middle{
+    height: 250px;
+    width: 100%;
+    background-color:rgb(128, 128, 128, 0.05);
+    display: flex;
+}
+.content-middle2{
+    height: 270px;
+    width: 100%;
+    display: flex;
+}
+.content-top {
+    padding: 180px 0 150px 0;
+    background-color: rgb(0, 0, 139, 0.9);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.content-top h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+.content-top p {
+    margin-bottom: 3px;
+}
+.flex-container{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+}
+.f-profiltim{
+    margin: 0 20px;
+    width: 100%;
+    text-align: center;
+    color: darkblue;
+    transition: box-shadow 0.5s;
+    padding-top: 10px;
+    border: 1px solid darkblue;
+}
+.f-profiltim:hover{
+    box-shadow: 5px 0px 40px orangered;
+}
+.f-img{
+    width: 90px;
+}
+footer{
+    text-align: center;
+    padding: 10px 0;
+    background-color: #00c8eb;
+    color: white;
+}
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #00c8eb;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+.header-left {
+    float: left;
+}
+  
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+  
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(2, 151, 250, 0.9);
+}
+
+.logo {
+    height: 90px;
+    margin-top: -13px;
+}
+.main{
+    background-color: rgba(252, 245, 245, 0.5);
+    position: relative;
+    height: 300px;
+
+}
+.main-raised {
+    margin: -120px 200px 80px;
+    padding-top: 30px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.middle-left{
+    padding-left: 100px;
+    color: darkblue;
+}
+.middle-left2{
+    padding-left: 100px;
+}
+.middle-right{
+    padding-right: 100px;
+}
+.middle-right2{
+    padding-right: 100px;
+    color: darkblue;
+}
+.middle-right2 h1{
+    text-align: right;
+}
+.middle-right2 p{
+    text-align: right;
+}
+.middle-img{
+    height: 350px;
+    margin-top: -50px;
+}
+.middle-img2{
+    height: 200px;
+}
+.middle-txt{
+    display: inline-block;
+    width: 80%;
+    padding-bottom: 20px;
+}
+.middle-txt2{
+    display: inline-block;
+    width: fit-content;
+    padding-bottom: 20px;
+
+}
+.nur{
+    word-break: break-all;
+}
+.txt{
+    padding: 10px 0;
+    display: inline-block;
+    color: darkblue;
+    width: 100%;
+    text-align: center;
+}
+@media all and (max-width: 1300px) {
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-profiltim{
+        margin-top: 20px;
+    }
+    br{
+        padding-top: 20px;
+    }
+    .btn2{
+        background-color: darkblue;
+        border: 0px solid;
+        border-radius: 10px;
+        padding: 15px 20px;
+        color: white;;
+        margin-left: 500px;
+        margin-bottom: 30px;
+    }
+  }
+@media all and (max-width: 1000px) {
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-profiltim{
+        margin-top: 20px;
+    }
+    .content-middle{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    .content-middle2{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    .middle-left{
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+        color: darkblue;
+    }
+    .middle-left2{
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .middle-right{
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;;
+    }
+    .middle-right2{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 50px;
+        text-align: center;
+        color: darkblue;
+        height: auto;
+    }
+    .middle-right2 h1{
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .middle-right2 p{
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    br{
+        padding-top: 20px;
+    }
+    .tombol{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 30px;
+    }
+    .main{
+        background-color: rgba(252, 245, 245, 0.5);
+        position: relative;
+        height: auto;
+    
+    }
+    .main-raised {
+        margin: -120px 100px 80px;
+        padding-top: 30px;
+        text-align: center;
+        border-radius: 6px;
+        box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    }
+    .col{
+        color: darkblue;
+        width: 100%;
+    }
+    .col-icon{
+        padding-top: 10px;
+        position: relative;
+        display: inline-block;
+    }
+    .col-icon img{
+        width: 90px;
+    }
+    .btn2{
+        background-color: darkblue;
+        border: 0px solid;
+        border-radius: 10px;
+        padding: 15px 20px;
+        color: white;;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+  }
+@media all and (max-width: 670px) {
+    .header-right {
+        display: none;
+    }
+}
